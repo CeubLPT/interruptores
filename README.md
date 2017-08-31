@@ -21,21 +21,21 @@ Implemente as classes e os métodos, seguindo o diagrama, sem que eles façam na
 
 ### Passo 2
 Para a classe **Lampada**:
-1. os métodos `acende` e `apaga, setam o valor do atributo aceso como `true` ou `false.
+1. os métodos `acende` e `apaga`, setam o valor do atributo aceso como `true` ou `false`.
 2. método `isAceso` retorna este atributo.
 3. Crie um método construtor que faça a lâmpada nascer apagada.
 
 ### Passo 3 
 Para a classe **Interruptor**:
 1. o método `conecta`, recebe um objeto `Lampada` e coloca no atributo `lampada`
-2. o método `aciona`, acende ou apaga a lâmpada dependendo do estado. Ele deve verificar se existe uma lâmpada conectada. Caso não exista, retorna `false`, indicando problema, senão retorna true`.
+2. o método `aciona`, acende ou apaga a lâmpada dependendo do estado. Ele deve verificar se existe uma lâmpada conectada. Caso não exista, retorna `false`, indicando problema, senão retorna `true`.
 3. implemente um método `getLampada()`.
 
 ### Passo 4
 Para a classe **Comodo**, implemente os métodos da seguinte maneira:
-1. o método `conecta` recebe um interruptor e adiciona no `ArrayList.
+1. o método `conecta` recebe um interruptor e adiciona no `ArrayList`.
 2. os métodos `apagaTodos` e `acendeTodos` devem realizar essa ação em todos os interruptores
-3. o método `obtemIluminacao` verifica quantos interruptores estão acessos e mostra o % de iluminação da sala ( `acesos / total interruptores * 100)
+3. o método `obtemIluminacao` verifica quantos interruptores estão acessos e mostra o % de iluminação da sala ( `acesos / total interruptores * 100`)
 
 
 ## Colocando tudo para funcionar
